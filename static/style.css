@@ -1,0 +1,73 @@
+/* 🌙 GLOBAL */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 FORCE ALL TEXT BRIGHT */
+body, body * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* 🧱 CARDS */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+/* 🔵 LABELS */
+.label,
+.metric-label {
+    color: #9ecbff !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ⚪ VALUES */
+.value {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* 🔥 HEADINGS */
+h1, h2, h3, h4, h5 {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+/* 🔵 SMILES LABEL */
+p b {
+    color: #9ecbff !important;
+}
+
+/* 📊 LIST */
+.list-group-item {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444;
+    color: #ffffff !important;
+}
+
+/* 🔲 INPUT */
+input {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border: 1px solid #444 !important;
+}
+
+/* 🧪 VIEWER */
+#viewer {
+    width: 450px;
+    height: 320px;
+    margin: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
